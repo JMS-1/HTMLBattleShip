@@ -65,6 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="battleship.css" />
+    <Content Include="battleship.js" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
