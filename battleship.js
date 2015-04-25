@@ -36,7 +36,7 @@ function verstecken() {
     for (var zs = 0; zs < alleZellen.length; zs++) {
         var zelle = alleZellen[zs];
 
-        zelle.onclick = function (ev) { beschiessen(ev.srcElement); };
+        zelle.onclick = function (ev) { beschiessen(ev.target); };
         zelle.zeilennummer = Math.floor(zs / 10);
         zelle.className = nichtGeprüft;
         zelle.spaltennummer = zs % 10;
